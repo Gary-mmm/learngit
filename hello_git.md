@@ -1,4 +1,4 @@
-#git is useful
+# git is useful
 **Happy New Year!**
 笑死
 - 笑不出来了
@@ -9,6 +9,7 @@
 - 场景三，如果已经提交到了版本库当中，想要撤销本次提交。参考版本回退
   - 使用`git log`查看版本控制系统的历史记录。后面可以添加`--pretty=oneline`参数
   - 使用`git reset --hard HEAD^`表示会退到上一个版本
-  - git中，`HEAD`表示当前版本，HEAD^表示上一个版本，HEAD^^表示上上个版本，而HEAD~100表示上100个版本
+  - git中，`HEAD`表示当前版本，HEAD^ 表示上一个版本，HEAD^^表示上上个版本，而HEAD~100表示上100个版本
   - 使用`git reset --hard <commit id>`可以回到对应版本。
   - 使用`git reflog`查看我的每一次命令（找版本号）♪（ｖ＾＿＾）ｖ
+- 尝试一下远程修改
