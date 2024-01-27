@@ -12,4 +12,9 @@
   - git中，`HEAD`表示当前版本，HEAD^ 表示上一个版本，HEAD^^表示上上个版本，而HEAD~100表示上100个版本
   - 使用`git reset --hard <commit id>`可以回到对应版本。
   - 使用`git reflog`查看我的每一次命令（找版本号）♪（ｖ＾＿＾）ｖ
-- 尝试一下远程修改
+- 添加远程库
+  1. 添加远程库`git remote add origin git@server-name:path/repo-name.git` 其中`origin`是默认的习惯名
+  2. 使用`git push` 命令把当前分支master推送到远程，加参数`-u`可以 把本地的master和远程master关联起来，不过似乎要把`master`改成`main`才可以。
+  `git remote add origin git@github.com:michaelliao/learngit.git`
+   `git push -u origin master`
+  3. 之后如果本地做了提交可以使用`git push  origin master(main)`，把本地`master`分支的最新修改推送至GitHub
